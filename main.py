@@ -6,4 +6,8 @@ ligaBetPlay = {}
 FILE_NAME = 'ligabetplay.json'
 
 if __name__=="__main__":
-   menu.menuOptions(ligaBetPlay)
+   ligaBetPlay = cf.readDataFile(FILE_NAME)
+   try:
+       menu.menuOptions(ligaBetPlay)
+   except ValueError as e:
+       print(f"An error occurred: {e}")

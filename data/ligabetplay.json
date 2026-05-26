@@ -1,1 +1,22 @@
-{}
+{
+    "01": {
+        "nombre": "A. Nacional",
+        "estadio": "A Girardot",
+        "ciudad": "Medellin",
+        "fundacion": "1947",
+        "titulos": {},
+        "planta_tecnica": {},
+        "jugadores": {},
+        "estadisticas": {}
+    },
+    "02": {
+        "nombre": "America",
+        "estadio": "Pascual Guerrero",
+        "ciudad": "Cali",
+        "fundacion": "1927",
+        "titulos": {},
+        "planta_tecnica": {},
+        "jugadores": {},
+        "estadisticas": {}
+    }
+}
