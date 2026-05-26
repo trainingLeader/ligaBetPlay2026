@@ -4,8 +4,23 @@
         "estadio": "A Girardot",
         "ciudad": "Medellin",
         "fundacion": "1947",
-        "titulos": {},
-        "planta_tecnica": {},
+        "titulos": {
+            "01": {
+                "liga": "LigaBetPLay 2026",
+                "anio": "2026",
+                "torneo": "Betplay"
+            }
+        },
+        "planta_tecnica": {
+            "01": {
+                "tecnico": "Yo",
+                "medico": "Tu",
+                "preparador_fisico": "El",
+                "psicologo": "Nosotros",
+                "entrenador_arqueros": "Vosotros",
+                "entrenador_asistente": "Ellos"
+            }
+        },
         "jugadores": {},
         "estadisticas": {}
     },

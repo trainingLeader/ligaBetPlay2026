@@ -1,6 +1,6 @@
 import modules.utils as u
 import modules.teams.team as t
-MENU_OPTIONS = '1. Agregar Equipo\n2. Agregar Planta tecnica\n3. Registrar Jugadores\n4. Programar fecha\n5. Estadisticas\n6. Buscar\n7. Eliminar Equipo \n8. Detalles del Equipo \n0. Salir'
+MENU_OPTIONS = '1. Agregar Equipo\n2. Agregar Planta tecnica\n3. Registrar Jugadores\n4. Programar fecha\n5. Estadisticas\n6. Buscar\n7. Eliminar Equipo \n8. Detalles del Equipo\n9. Agregar Titulo\n0. Salir'
 def menuOptions(ligaBetPlay : dict):
     while True:
         try:
@@ -11,7 +11,7 @@ def menuOptions(ligaBetPlay : dict):
                 case 1:
                     t.addTeam(ligaBetPlay)
                 case 2:
-                    pass
+                    t.addTechnicalStaff(ligaBetPlay)
                 case 3:
                     pass
                 case 4:
@@ -24,6 +24,8 @@ def menuOptions(ligaBetPlay : dict):
                     t.deleteTeam(ligaBetPlay)
                 case 8:
                     t.detailTeam(ligaBetPlay)
+                case 9:
+                    t.championShips(ligaBetPlay)
                 case 0:
                     return
                 case _:
